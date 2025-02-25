@@ -1,0 +1,14 @@
+title: Profile Photo
+
+accept:
+  extension: jpg, png,
+
+image: 
+  ratio: 2/3
+  cover: true
+
+options: 
+  changeTemplate: false
+
+sections:
+  meta: fields/meta

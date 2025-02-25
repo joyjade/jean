@@ -1,0 +1,34 @@
+title: Book
+icon: draft
+
+columns: 
+  left: 
+    width: 1/3
+    fields: 
+      cover: 
+        type: files
+        multiple: false
+        headline: Book Cover
+        layout: cards
+        template: cover
+      link_label:
+        type: text
+        label: Link Text
+      url: 
+        type: url
+  right:
+    width: 2/3
+    fields: 
+      title:
+        label: Book Title
+        type: text
+      summary: 
+        label: Summary
+        type: textarea
+      blurb_header:
+        label: Blurb Header
+        type: text
+        default: Praise 
+      blurb: 
+          label: Blurb
+          type: textarea

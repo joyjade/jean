@@ -1,0 +1,43 @@
+Title: Writing
+
+----
+
+Poetry:
+
+- 
+  title: The Hemp Plant’s Judgment
+  link: >
+    https://politicalresearch.org/2021/11/12/white-skin-black-fuel
+  publisher: Broccoli Magazine, Issue 11
+  date: "2021"
+- 
+  title: Love Languages
+  link: >
+    https://www.theunderwaterrailroad.org/journal/love-languages
+  publisher: The Underwater Railroad
+  date: "2020"
+- 
+  title: My Mother’s Tongue
+  link: >
+    https://therumpus.net/2019/04/25/my-mothers-tongue/
+  publisher: The Rumpus
+  date: "2019"
+
+----
+
+Essays:
+
+- 
+  title: 'White Skin, Black Fuel: Author Q&A with Andreas Malm'
+  link: >
+    https://politicalresearch.org/2021/11/12/white-skin-black-fuel
+  publisher: Political Research Associates
+  date: "2021"
+
+----
+
+Other: 
+
+----
+
+Uuid: XBMnpk2cGHpbvFMg

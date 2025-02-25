@@ -1,0 +1,26 @@
+title: Writing
+icon: 🗒
+
+options: 
+  changeTitle: false
+  changeStatus: false
+  changeTemplate: false
+  delete: false
+  duplicate: false
+  move: false
+  url: false
+
+
+
+columns:
+  - width: 3/3
+    fields:
+      poetry: 
+        extends: fields/writing
+        label: Poetry
+      essays:   
+        extends: fields/writing
+        label: Essays
+      other:   
+        extends: fields/writing
+        label: Other

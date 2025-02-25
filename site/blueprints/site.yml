@@ -1,0 +1,29 @@
+title: Site
+
+options: 
+  changeTitle: false
+  changeStatus: false
+  changeTemplate: false
+  delete: false
+  duplicate: false
+  move: false
+
+tabs: 
+  writing: 
+    label: Main Site
+    icon: book
+    sections:
+      main: 
+        type: pages
+        label: Pages
+        status: listed
+        info: "{{ page.slug }}"
+        image:
+          back: black
+          cover: true
+
+
+
+  
+    
+

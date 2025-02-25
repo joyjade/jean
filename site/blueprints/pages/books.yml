@@ -1,0 +1,20 @@
+title: Books
+icon: 📕
+type: pages
+
+options:
+  changeTemplate: false
+  delete: false
+  duplicate: false
+  move: false
+  url: false
+
+sections:
+  books:
+    type: pages
+    headline: Books 
+    template: book
+    layout: cards
+    image: 
+      back: white
+      ratio: 2/3

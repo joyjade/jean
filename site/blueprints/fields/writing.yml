@@ -1,0 +1,15 @@
+label: Writing
+type: structure
+fields:
+  title:
+    label: title
+    type: text
+  link:
+    label: link
+    type: url
+  publisher:
+    label: Publisher
+    type: text
+  date:
+    label: date
+    type: text

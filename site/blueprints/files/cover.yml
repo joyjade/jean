@@ -1,0 +1,11 @@
+title: Book Cover
+
+accept:
+  extension: jpg, png
+
+image: 
+  ratio: 2/3
+  back: white
+
+sections:
+  meta: fields/meta

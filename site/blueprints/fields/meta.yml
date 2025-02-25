@@ -1,0 +1,14 @@
+label: Meta
+type: fields
+fields:
+  alt:
+    label: Alt Text
+    type: text
+  credit:
+    label: Credit
+    type: text
+    width: 1/2
+  link:
+    label: Link
+    type: url
+    width: 1/2

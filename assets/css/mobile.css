@@ -1,0 +1,24 @@
+@media screen and (max-width: 440px) {
+  /* LAYOUT */
+  body {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .header {
+    padding-bottom: 1rem;
+  }
+
+  ul.nav {
+    display: flex;
+  }
+
+  ul.nav li {
+    padding-right: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .landing .feature-img {
+    max-width: 89vw;
+  }
+}

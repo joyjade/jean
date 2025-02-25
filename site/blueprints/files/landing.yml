@@ -1,0 +1,15 @@
+title: Welcome Image
+
+accept:
+  extension: jpg, png, gif
+
+image:
+  cover: true
+  ratio: 1/1
+  back: white
+
+options: 
+  changeTemplate: false
+
+sections:
+  meta: fields/meta
