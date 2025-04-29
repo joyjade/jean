@@ -5,3 +5,32 @@
     src: url('Arial Rounded Bold.ttf');
     font-style: normal;
 }
+
+@font-face {
+  font-family: 'rip';
+  src: url('rip-Regular.ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Serif';
+  src: url('SourceSerifPro-Regular.ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Serif';
+  src: url('SourceSerifPro-Italic.ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Serif';
+  src: url('SourceSerifPro-Bold.ttf');
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Source Serif Bold Italic';
+  src: url('SourceSerifPro-BoldItalic.ttf');
+}
