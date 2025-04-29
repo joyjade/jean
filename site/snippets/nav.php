@@ -12,17 +12,20 @@
   <?= css(['assets/css/global.css', 'assets/type/typography.css', 'assets/css/mobile.css', '@auto',]) ?>
 </head>
 
-<body class="">
+<body class="<?= $page->title()->lower() ?>">
+  <div class="checkers"></div>
   <div class="header">
-    <div class="title">
-      <a href="<?= $site->url() ?>"><?= $site->title() ?></a>
-    </div>
+    <?php if (!$page->isHomePage()): ?>
+      <div class="title">
+        <a href="<?= $site->url() ?>"><?= $site->title() ?></a>
+      </div>
+    <?php endif ?>
   </div>
 	<nav>
     <ul class="nav">
       <?php foreach ($site->children()->listed() as $item): ?>
-        <li>
-          <a <?php e($item->isOpen(), 'class="active"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
+        <li <?php e($item->isOpen(), 'class="active"') ?>>
+          <a href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
         </li>
       <?php endforeach ?>
     </ul>

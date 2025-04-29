@@ -1,9 +1,9 @@
 /* TYPOGRAPHY */
 
 @font-face {
-    font-family: 'Arial Rounded Bold';
-    src: url('Arial Rounded Bold.ttf');
-    font-style: normal;
+    font-family: 'Arial Rounded';
+    src: url('arialroundedmtbold.ttf');
+    font-style: bold;
 }
 
 @font-face {

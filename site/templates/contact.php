@@ -1,4 +1,4 @@
-<?php snippet('header') ?>
+<?php snippet('nav') ?>
     <main class="main">
         <h1><?= $page->title()->html() ?></h1>
 
