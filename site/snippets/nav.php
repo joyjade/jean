@@ -12,7 +12,8 @@
   <?= css(['assets/css/global.css', 'assets/type/typography.css', 'assets/css/mobile.css', '@auto',]) ?>
 </head>
 
-<body class="<?= $page->title()->lower() ?>">
+
+<body class="<?= $page->template()->name() ?>">
   <div class="header">
     <div class="title">
       <a href="<?= $site->url() ?>"><?= $site->title() ?></a>

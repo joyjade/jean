@@ -8,7 +8,8 @@
  --neon-green: #09FF00; 
  --neon-yellow: #EEFF00; 
  --neon-pink: #FC5BFB; 
---lisa-gradient: linear-gradient(160deg, var(--neon-pink), var(--neon-yellow))
+--lisa-gradient: linear-gradient(160deg, var(--neon-pink), var(--neon-yellow));
+--drop-black: drop-shadow(3px 5px 3px black); 
 
 }
 
@@ -86,7 +87,6 @@ body.home .checkers, .home .header .title, .about .header .title {
   left: 0;
   width: 50%;
   height: 100vh;
-  z-index: -1;
   background: conic-gradient(
     var(--neon-green) 90deg,
     var(--neon-pink) 90deg 180deg,
@@ -135,12 +135,13 @@ nav {
 
   font-family: var(--nav-font);
   font-style: bold;
-  font-size: 1.3rem;
   text-transform: lowercase;
   margin-bottom: 1rem;
 
   position: fixed;
   padding: 1.5rem;
+  z-index: 10;
+
 }
 
 ul.nav {
@@ -148,11 +149,12 @@ ul.nav {
   position: relative;
 }
 
-nav li {
+nav li, .button {
   line-height: 1;
   margin-right: 0.35rem;
   padding: 0.5rem 1rem;
-  
+  font-size: 1.3rem;
+
   background: linear-gradient(black, black) padding-box,
   var(--lisa-gradient) border-box;
   border-radius: 10px;
@@ -173,7 +175,7 @@ nav li:hover > ul.sub-nav, ul.sub-nav:hover {
 }
 
 nav li.active, nav li:hover {
-  filter: drop-shadow(3px 5px 3px black);
+  filter: var(--drop-black);
 }
 
 ul.sub-nav li {
@@ -181,6 +183,10 @@ ul.sub-nav li {
   width: fit-content;
 }
 
+
+.button:hover {
+  filter: var(--drop-black);
+}
 
 
 /* PAGES */
@@ -206,10 +212,6 @@ ul.sub-nav li {
 
 .home .content {
   padding: 5rem 1.5rem;
-}
-
-.about .right-col {
-  padding-top: 6rem;
 }
 
 .play {
@@ -253,6 +255,13 @@ ul.sub-nav li {
   transform: translate(100%, 100%);
 }
 
+/* ABOUT */
+
+.about .right-col {
+  padding-top: 6rem;
+}
+
+
 .about p {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -287,63 +296,71 @@ ul.sub-nav li {
 .writing h3, .book h3 {
   font-family: var(--nav-font);
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   letter-spacing: 1.5px;
   
   margin-bottom: 1rem;
 }
 
-.about .photo-col, .book .photo-col {
-  margin-right: 2.5rem;
-  max-width: 300px;
-}
+/* BOOK */
 
-.photo-col img {
-  object-fit: contain;
-  width: inherit;
-}
-
-img.cover {
-  width: 300px;
+.book .left-col {
+  flex-direction: column;
+  padding-top: 3rem;
 }
 
 
 .book h2 {
   font-size: 2rem;
-  font-family: var(--display-font);
-  padding-bottom: 2rem;
+  font-family: var(--nav-font);
+  padding-bottom: 2.5rem;
+  position: relative;
+  display: inline-block
+}
+
+.book h2::before, .book h3::before {
+  content: "";
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  left: 0;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--lisa-gradient);
+}
+
+.book h3::before {
+  top: 130%;
+}
+
+.book .button {
+  margin-top: 2rem;
+}
+
+/* 
+.about .photo-col, .book .photo-col {
+  margin-right: 2.5rem;
+  max-width: 300px;
+} */
+
+img.cover {
+  object-fit: contain;
+  width: inherit;
+
+  max-width: 70%;
+  max-height: 65%;
 }
 
 .book p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 1rem;
 }
 
 .book h3 {
  margin-top: 3rem; 
-}
-
-.book .button {
-  display: flex;
-  border: var(--thin-border);
-  font-family: var(--nav-font);
-  justify-content: center;
-  padding: 12px 15px 5px;
-  line-height: 1;
-  margin-top: 1rem;
-  text-transform: uppercase;
-  font-size: 1.1rem;
-  letter-spacing: 1.5px;
-  color: var(--secondary-color)
-}
-
-.book .button:hover{
-  --secondary-color: black;
-}
-
-.book .cover {
-  width: 400px;
-  height: auto;
+ position: relative;
+ display: inline-block;
+ margin-bottom: 2.5rem;
 }
 
 /* CONTACT */

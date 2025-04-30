@@ -6,11 +6,11 @@ Cover: - file://OhxC6ldObrxWgPfY
 
 ----
 
-Link-label: 
+Link-label: click me choose me love me
 
 ----
 
-Url: 
+Url: https://www.penguinrandomhouse.com/books/617234/pizza-girl-by-jean-kyoung-frazier/
 
 ----
 
