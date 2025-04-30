@@ -13,20 +13,39 @@
 </head>
 
 <body class="<?= $page->title()->lower() ?>">
-  <div class="checkers"></div>
   <div class="header">
-    <?php if (!$page->isHomePage()): ?>
-      <div class="title">
-        <a href="<?= $site->url() ?>"><?= $site->title() ?></a>
-      </div>
-    <?php endif ?>
+    <div class="title">
+      <a href="<?= $site->url() ?>"><?= $site->title() ?></a>
+    </div>
   </div>
-	<nav>
-    <ul class="nav">
-      <?php foreach ($site->children()->listed() as $item): ?>
-        <li <?php e($item->isOpen(), 'class="active"') ?>>
-          <a href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
+  
+  <!-- nested menu -->
+  <?php 
+  $items = $pages->listed();
+  if($items->isNotEmpty()): // only show the menu if items are available
+
+  ?>
+    <nav>
+      <ul class="nav">
+        <?php foreach($items as $item): ?>
+        <li>
+          <a
+            <?php e($item->isOpen(), 'class="active"') ?> 
+            href="<?php e($item->children()->listed()->isEmpty(), $item->url()) ?>"><?= $item->title()->html() ?></a>
+
+          <?php
+            $children = $item->children()->listed();           // get all children for the current menu item
+            if($children->isNotEmpty()):                       // display the submenu if children are available
+          ?>
+          <ul class="sub-nav">
+            <?php foreach($children as $child): ?>
+            <li><a<?php e($child->isOpen(), ' class="active"') ?> href="<?= $child->url() ?>"><?= $child->title()->html() ?></a></li>
+            <?php endforeach ?>
+          </ul>
+          <?php endif ?>
+
         </li>
-      <?php endforeach ?>
-    </ul>
-	</nav>
+        <?php endforeach ?>
+      </ul>
+    </nav>
+  <?php endif ?>

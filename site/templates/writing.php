@@ -1,6 +1,6 @@
 <?php snippet('nav') ?>
 <div class="content">
-<div class="left-col">
+<div class="left-col checkers">
   &nbsp;
 </div>
 <div class="right-col">
