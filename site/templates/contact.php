@@ -1,7 +1,9 @@
 <?php snippet('nav') ?>
 <div class="content">
   <div class="left-col checkers">
-  &nbsp;
+  <div class="msg">
+    <?= $page->inquiry()->kirbytext() ?>
+  </div>
   </div>
   <div class="right-col">
   <main class="main">

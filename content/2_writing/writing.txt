@@ -2,41 +2,36 @@ Title: Writing
 
 ----
 
-Poetry:
+Stories:
 
 - 
-  title: The Hemp Plant’s Judgment
+  title: Some short story
   link: >
-    https://politicalresearch.org/2021/11/12/white-skin-black-fuel
-  publisher: Broccoli Magazine, Issue 11
-  date: "2021"
-- 
-  title: Love Languages
-  link: >
-    https://www.theunderwaterrailroad.org/journal/love-languages
-  publisher: The Underwater Railroad
+    https://electricliterature.com/pizza-girl-jean-kyoung-frazier-2/
+  publisher: Electric Lit
   date: "2020"
-- 
-  title: My Mother’s Tongue
-  link: >
-    https://therumpus.net/2019/04/25/my-mothers-tongue/
-  publisher: The Rumpus
-  date: "2019"
 
 ----
 
 Essays:
 
 - 
-  title: 'White Skin, Black Fuel: Author Q&A with Andreas Malm'
+  title: Non Fiction work or article
   link: >
-    https://politicalresearch.org/2021/11/12/white-skin-black-fuel
-  publisher: Political Research Associates
-  date: "2021"
+    https://lambdaliteraryreview.org/2020/06/pizza-girl/
+  publisher: Lamba Literary Review
+  date: "2020"
 
 ----
 
-Other: 
+Television:
+
+- 
+  title: Do you want any TV things here or nah?
+  link: >
+    https://www.imdb.com/title/tt28093628/?ref_=nm_knf_t_3
+  publisher: Adult Swim
+  date: "2025"
 
 ----
 

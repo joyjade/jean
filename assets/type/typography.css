@@ -7,13 +7,32 @@
 }
 
 @font-face {
+  font-family: 'Arial Rounded Light';
+  src: url('ARIALROUNDEDMTLIGHT.TTF');
+  font-style: light;
+}
+
+
+@font-face {
+  font-family: 'Arial Rounded Reg';
+  src: url('ARIALROUNDEDMT.TTF');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arial Rounded Bold';
+  src: url('ARIALROUNDEDMTEXTRABOLD.TTF');
+  font-style: bold;
+}
+
+@font-face {
   font-family: 'rip';
   src: url('rip-Regular.ttf');
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Source Serif';
+  font-family: 'Source Serif Regular';
   src: url('SourceSerifPro-Regular.ttf');
   font-style: normal;
 }

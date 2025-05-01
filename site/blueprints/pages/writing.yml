@@ -15,12 +15,12 @@ options:
 columns:
   - width: 3/3
     fields:
-      poetry: 
+      stories: 
         extends: fields/writing
-        label: Poetry
+        label: Stories
       essays:   
         extends: fields/writing
         label: Essays
-      other:   
+      television:   
         extends: fields/writing
-        label: Other
+        label: Television

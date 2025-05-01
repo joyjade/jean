@@ -1,5 +1,5 @@
 title: Contact
-icon: ☎️
+icon: email
 
 options:
   changeTemplate: false
@@ -7,9 +7,24 @@ options:
   duplicate: false
   move: false
 
-fields:
-  text:
-    label: Research
-    type: textarea
-      
 
+columns: 
+  left: 
+    width: 1/2
+    fields: 
+      inquiry:
+        label: Inquiries
+        help: This text shows up on the left side
+        type: textarea
+  right:
+    width: 1/2
+    fields: 
+      subject:
+        label: Email Subject
+        help: The message in the contact form will show up in your inbox with this subject line
+        type: text
+      secret: 
+        type: text
+        label: Authorization Key
+
+        

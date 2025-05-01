@@ -1,9 +1,9 @@
 <?php
 return function () {
     $genres = [
-        'Poetry',
-        'Essays',
-        'Other'
+        'Stories',
+        'Television',
+        'Essays'
     ];
     return [
         'genres' => $genres
