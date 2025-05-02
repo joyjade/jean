@@ -409,10 +409,14 @@ img.cover {
   color: var(--neon-yellow);
 }
 
-.contact .msg {
+.contact .msg p {
   background-color: black;
-  padding: 2rem 3rem;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
   font-size: 1.1rem;
+  font-family: var(--font-family);
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 input, textarea {
