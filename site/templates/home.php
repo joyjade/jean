@@ -4,8 +4,8 @@
   <h3><?= $site->description()?></h3>
 </div>
 
-<img src="/assets/icons/star_green.svg" alt="" class="green one">
-<img src="/assets/icons/star_green.svg" alt="" class="pink one">
-<img src="/assets/icons/star_pink.svg" alt="" class="green two">
+<img src="/assets/icons/star_green.svg" alt="" id="green1" class="shape">
+<img src="/assets/icons/star_green.svg" alt="" id="green2" class="shape">
+<img src="/assets/icons/star_pink.svg" alt="" id="pink" class="shape">
 
 <?php snippet('footer') ?>
