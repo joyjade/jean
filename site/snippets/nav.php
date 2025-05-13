@@ -27,6 +27,7 @@
 
   ?>
     <nav>
+      <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
       <ul class="nav">
         <?php foreach($items as $item): ?>
         <li>

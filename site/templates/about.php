@@ -18,6 +18,13 @@
       <img src="/assets/icons/star_green.svg" alt="" class="green">
     </div>
     <?= $page->text()->kirbytext() ?> 
+
+    <?php if($image = $page->image()): ?>
+      <div class="mobile-only checkers">
+        <img class="profile" src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
+        <figcaption><?= $image->credit()?></figcaption>
+      </div>
+    <?php endif ?>
   </div>
 </div>
 <?php snippet('footer') ?>
