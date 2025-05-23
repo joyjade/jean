@@ -455,16 +455,16 @@ textarea {
   left: -9999px;
 }
 
-input.submit {
-  width: 10rem;
+button.button {
+  width: auto;
   color: white;
   font-family: var(--font-family);
-  font-size: 1.3em;
+  font-size: 1.1rem;
   text-align: center;
-  padding: 0.5rem 0.5rem;
+  padding: 0.75rem 1rem;
 }
 
-input.submit:hover {
+button.button:hover {
   filter: drop-shadow(8px 8px 8px var(--neon-green));
   transition: filter 0.2s;
 }
