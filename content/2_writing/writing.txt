@@ -1,4 +1,4 @@
-Title: Writing
+Title: Other Writing
 
 ----
 
@@ -13,14 +13,7 @@ Stories:
 
 ----
 
-Essays:
-
-- 
-  title: Non Fiction work or article
-  link: >
-    https://lambdaliteraryreview.org/2020/06/pizza-girl/
-  publisher: Lamba Literary Review
-  date: "2020"
+Essays: 
 
 ----
 

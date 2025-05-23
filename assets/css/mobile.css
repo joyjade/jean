@@ -75,9 +75,20 @@
     margin-bottom: 0.5rem;
   }
 
+  ul.sub-nav {
+    top: -2.5px;
+    padding-top: 0;
+    left: 105%;
+  }
+
   nav, .header .title {
     padding: 0.75rem;
     top: 0;
+  }
+
+
+  nav li {
+    filter: var(--drop-black);
   }
 
   .hamb {

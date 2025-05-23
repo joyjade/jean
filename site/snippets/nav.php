@@ -30,7 +30,7 @@
       <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
       <ul class="nav">
         <?php foreach($items as $item): ?>
-        <li>
+        <li <?php e($item->hasChildren(), 'class="doll"') ?>>
           <a
             <?php e($item->isOpen(), 'class="active"') ?> 
             href="<?php e($item->children()->listed()->isEmpty(), $item->url()) ?>"><?= $item->title()->html() ?></a>

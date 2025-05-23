@@ -52,9 +52,17 @@ function isSkinny() {
 function mobileNav() {
   let nav = document.querySelector('ul.nav');
   let hamb = document.querySelector('.hamb');
+  let doll = document.querySelector('.doll a');
   hamb.onclick = function(e) {
     e.preventDefault;
     console.log('burger clicked')
     nav.classList.toggle('show');
   }
+  
+  doll.onclick = function(e) {
+    e.preventDefault;
+    console.log('book clicked!')
+    return false;
+  }
+
 }
