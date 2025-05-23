@@ -53,16 +53,27 @@ function mobileNav() {
   let nav = document.querySelector('ul.nav');
   let hamb = document.querySelector('.hamb');
   let doll = document.querySelector('.doll a');
-  hamb.onclick = function(e) {
-    e.preventDefault;
-    console.log('burger clicked')
-    nav.classList.toggle('show');
-  }
-  
+
   doll.onclick = function(e) {
     e.preventDefault;
-    console.log('book clicked!')
+    // console.log('book clicked!')
     return false;
   }
+
+  document.addEventListener('click', function(event) {
+    if (nav.classList.contains('show')) {
+      if (event.target !== nav && !nav.contains(event.target)) {
+        // console.log('outside element');
+        nav.classList.remove('show');
+      }
+    } else {
+      // console.log('the nav is closed');
+      if (event.target == hamb || hamb.contains(event.target)) {
+        event.preventDefault;
+        // console.log('burger clicked')
+        nav.classList.toggle('show');
+      }    
+    }
+  });
 
 }
