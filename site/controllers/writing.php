@@ -1,8 +1,8 @@
 <?php
 return function () {
     $genres = [
+      'Television',
         'Stories',
-        'Television',
         'Essays'
     ];
     return [

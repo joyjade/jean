@@ -35,6 +35,18 @@
   .contact .content, .about .content {
     flex-direction: column-reverse;
   }
+  
+  .book .left-col {
+    padding-bottom: 3rem;
+  }
+
+  .book .right-col {
+    padding-top: 3rem;
+  }
+
+  .writing .checkers {
+    display: none;
+  }
 
   .content > div {
     width: 100%;
@@ -182,11 +194,16 @@
     padding: 4rem 1rem;
   }
 
-  .contact h2 {
+  .contact h2, .writing h2 {
     margin-bottom: 3rem;
     font-family: var(--extra-bold);
     text-transform: capitalize;
     font-size: 2rem;
+  }
+
+  .writing h2 {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
   }
 
   .contact button {
