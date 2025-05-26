@@ -58,6 +58,8 @@ a {
 .content p {
   font-size: 1.5rem;
   font-family: var(--light-font);
+
+  margin-bottom: 2rem;
 }
 
 .content p strong {

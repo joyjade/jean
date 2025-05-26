@@ -6,9 +6,6 @@
   </div>
   </div>
   <div class="right-col">
-    <div class="mobile-only">
-      <h2><?= $page->template()->name() ?></h2>
-    </div>
     <main class="main">
       <div class="alert success">
         <p>Your message was sent!</p>

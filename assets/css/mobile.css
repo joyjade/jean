@@ -32,7 +32,7 @@
     flex-direction: column;
   }
 
-  .contact .content, .about .content {
+  .contact .content, .about .content, .contact.content {
     flex-direction: column-reverse;
   }
   
@@ -208,5 +208,14 @@
 
   .contact button {
     padding: 0.75rem 1.5rem;
+  }
+
+  .contact.content {
+    height: 95vh;
+
+  }
+  .contact.content .right-col {
+    /* padding-top: 1rem; */
+    height: 100%;
   }
 }
