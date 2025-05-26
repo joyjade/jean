@@ -1,7 +1,8 @@
 <?php snippet('nav') ?>
+<?php $image = $page->photo()->toFile() ?>
 <div class="content">
   <div class="left-col checkers">
-    <?php if($image = $page->image()): ?>
+    <?php if($image): ?>
       <img class="profile" src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
       <figcaption><?= $image->credit()?></figcaption>
     <?php else: ?>
@@ -19,7 +20,7 @@
     </div>
     <?= $page->text()->kirbytext() ?> 
 
-    <?php if($image = $page->image()): ?>
+    <?php if($image): ?>
       <div class="mobile-only checkers">
         <img class="profile" src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
         <figcaption><?= $image->credit()?></figcaption>
