@@ -13,18 +13,26 @@ columns:
     width: 1/2
     fields: 
       inquiry:
-        label: Inquiries
-        help: This text shows up on the left side
+        label: "Inquries"
+        help: "Free form section for agent info, social, etc. Tip: Make sure to add an extra line break between items."
         type: textarea
+
+          
   right:
     width: 1/2
     fields: 
-      subject:
-        label: Email Subject
-        help: The message in the contact form will show up in your inbox with this subject line
-        type: text
       secret: 
         type: text
         label: Authorization Key
+        help: 
+      info:
+        label: ""
+        type: info
+        text: |
+          This contact form uses a third party tool. Go [here](https://web3forms.com/#start) and input the email you want to receive messages at. You'll get sent an Authorization Key to input.
+      subject:
+        label: Email Subject
+        help: This is the subject line that will show up in your inbox. It will be appended with the name of person filling out the form!
+        type: text
 
         

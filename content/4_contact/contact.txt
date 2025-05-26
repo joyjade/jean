@@ -6,13 +6,7 @@ Inquiry:
 
 Reach out to my (link: mailto:jean@frazier.com text: agent or something text?)
 
-For other inquires talk to another fella.
-
 Follow me on insta (link: https://www.instagram.com/gojeanfraziergo/?hl=en text: @gojeanfraziergo)
-
-----
-
-Subject: Yo yo yo
 
 ----
 
@@ -20,7 +14,7 @@ Secret: baaec0c2-18ad-4e13-b9b6-79b0f469c22c
 
 ----
 
-Email: 
+Subject: Yo yo yo
 
 ----
 
