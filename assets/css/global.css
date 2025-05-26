@@ -470,3 +470,7 @@ button.button:hover {
   filter: drop-shadow(8px 8px 8px var(--neon-green));
   transition: filter 0.2s;
 }
+
+.contact .crumb {
+  font-size: 1.25rem;
+}
