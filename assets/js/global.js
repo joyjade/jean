@@ -26,9 +26,8 @@ document.addEventListener("DOMContentLoaded", function() {
           do {
             x = Math.floor(Math.random() * maxX);
             y = Math.floor(Math.random() * maxY);
-          } while (x < viewportWidth && y < viewportHeight / 2);
+          } while (x < viewportWidth && y < viewportHeight / 1.7);
         } else {
-          console.log("Mobile device detected");
           do {
             x = Math.floor(Math.random() * maxX);
             y = Math.floor(Math.random() * maxY);
