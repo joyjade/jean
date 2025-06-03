@@ -2,7 +2,6 @@ title: Writing
 icon: 🗒
 
 options: 
-  changeStatus: false
   changeTemplate: false
   delete: false
   duplicate: false
@@ -14,12 +13,15 @@ options:
 columns:
   - width: 3/3
     fields:
+      television:   
+        extends: fields/writing
+        label: Television
       stories: 
         extends: fields/writing
         label: Stories
       essays:   
         extends: fields/writing
         label: Essays
-      television:   
-        extends: fields/writing
-        label: Television
+      info:  
+        text: The headers (e.g. Essays) will only appear if there is content in that section. 
+        label: ''
