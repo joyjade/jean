@@ -18,6 +18,7 @@ Icon
 # ---------------
 
 .lock
+composer.lock
 
 # Editors
 # (sensitive workspace files)
