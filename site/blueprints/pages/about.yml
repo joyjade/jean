@@ -1,5 +1,7 @@
 title: About
-icon: ⚡️
+icon: ⚡
+image: icon
+
 
 options:
   changeStatus: false

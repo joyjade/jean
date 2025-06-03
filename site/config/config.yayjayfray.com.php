@@ -3,6 +3,5 @@
 return [
   'panel' =>[
     'install' => true,
-    
   ], 
 ];
