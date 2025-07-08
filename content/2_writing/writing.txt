@@ -2,29 +2,36 @@ Title: Other Writing
 
 ----
 
-Stories:
+Television:
 
 - 
-  title: Some short story
-  link: >
-    https://electricliterature.com/pizza-girl-jean-kyoung-frazier-2/
-  publisher: Electric Lit
-  date: "2020"
+  title: Common Side Effects
+  link: ""
+  publisher: Adult Swim
+  date: "2025"
+- 
+  title: American Rust
+  link: ""
+  publisher: Amazon
+  date: "2024"
+- 
+  title: Lucky Hank
+  link: ""
+  publisher: AMC
+  date: "2023"
+- 
+  title: Beef
+  link: ""
+  publisher: Netflix
+  date: "2023"
+
+----
+
+Stories: 
 
 ----
 
 Essays: 
-
-----
-
-Television:
-
-- 
-  title: Do you want any TV things here or nah?
-  link: >
-    https://www.imdb.com/title/tt28093628/?ref_=nm_knf_t_3
-  publisher: Adult Swim
-  date: "2025"
 
 ----
 
